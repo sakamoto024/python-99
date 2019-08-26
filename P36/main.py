@@ -33,10 +33,10 @@ def prime_factors_multi(num):
 #    prime_count = Counter(prime_list)                                                #
 #    #print(prime_count)                                                              #
 #    #Counter({3: 2, 5: 1, 2: 1})                                                     #
-#    #キーに要素、値に出現回数をもつ辞書型のような形になる。                          #
+#    #キーに要素、値に出現回数をもつ辞書型のような形になる。                          　   #
 #    result = []                                                                      #
 #                                                                                     #
-#    #キーと値をそれぞれ取り出して、サブリスト化                                      #
+#    #キーと値をそれぞれ取り出して、サブリスト化                                          #
 #    for primekey,primevalue in prime_count.items():                                  #
 #　　    result.append([primekey,primevalue])                                         #
 #                                                                                     #
