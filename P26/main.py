@@ -37,3 +37,25 @@ def combination(size,x,index=0,temp=[]):
 
 
     return ret
+
+##########################組み込み関数combinationsを使用した場合######################
+#def combination(size,x):
+#    ret = []
+#    temp = combinaitons(int_list,int_split)#下記重複なしの組み合わせができる。
+#    for i in temp:
+#    print(i)
+#      (1, 2)
+#      (1, 3)
+#      (1, 4)
+#      (1, 5)
+#      (2, 3)
+#      (2, 4)
+#      (2, 5)
+#      (3, 4)
+#      (3, 5)
+#      (4, 5)
+
+#    for i in temp:
+#        result.append(list(i))
+
+#    return result
