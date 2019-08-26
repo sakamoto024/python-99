@@ -23,7 +23,7 @@ def prime_factors_multi(num):
 
 
 #####################【組み込み関数Counterを使った場合】###############################
-#import sys 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　#
+#import sys                                                                           #
 #sys.path.append('../')                                                               #
 #from P35.main import prime_factors                                                   #
 #from collections import Counter                                                      #
