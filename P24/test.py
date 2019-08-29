@@ -1,13 +1,17 @@
-import unittest
+import sys
+sys.path.append('../')
 
-import main
+import unittest
+from P24.main import rnd_select
 
 
 # FIXME: Property-based Testing
 class Test(unittest.TestCase):
     def test(self):
-        ret = main.rnd_select(6, 10)
+        ret = rnd_select(6, 10)
+        
         self.assertEqual(len(ret), 6)
+        self.assertEqual(len(ret), len(set(ret)))
         self.assertGreaterEqual(min(ret), 0)
         self.assertLessEqual(max(ret), 10)
 
