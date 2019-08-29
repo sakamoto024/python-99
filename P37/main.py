@@ -13,3 +13,25 @@ def totient_phi(num):
             formula = (base[i][0]-1) * base[i][0] ** (base[i][1]-1)
             
     return formula
+
+
+##############################修正コード###################################
+#def totient_phi(num):
+#    for i,y in base:
+#        if formula > 0:
+#            formula *= (i-1) * i ** (y-1)
+#        else:
+#            formula = (i-1) * i ** (y-1)
+
+#    return formula
+
+
+#############################修正コードPart2###############################
+#    import functools
+#    import operator
+#def totient_phi(num):
+#    formula = list(map(lambda x: (x[0]-1) * x[0] ** (x[1]-1),base))
+    
+#    result = functools.reduce(operator.mul,formula)
+
+#    return result
