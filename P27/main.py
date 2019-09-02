@@ -1,6 +1,3 @@
-#import sys
-#sys.path.append('../')
-#from P26.main import combination
 
 from itertools import combinations
 
@@ -32,4 +29,3 @@ def group(int_list,str_list,ls_1 = [],index = 0,result = None):
         group(int_list,str_list-set(i),ls_2,index + 1,result)#再帰処理
     
     return result
-#resultがそのまま更新され続けてしまう。
