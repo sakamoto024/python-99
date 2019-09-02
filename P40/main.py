@@ -51,4 +51,3 @@ def goldbach(num):
             if i + y == num:
                 ret += [i,y]
                 return ret
-
